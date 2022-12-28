@@ -1,0 +1,243 @@
+body {
+  background-color: rgb(240, 240, 240);
+  font-family: Arial;
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  box-sizing: content-box;
+  display: block;
+  width: 100%;
+  height: 120px;
+}
+
+.container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.logo {
+  width: 80px;
+  height: 80px;
+  top: 20px;
+  left: 120px;
+  position: absolute;
+}
+
+.tell {
+  margin: 0px;
+  padding: 0px;
+  font-size: 18px;
+  position: absolute;
+  font-weight: bold;
+  top: 50px;
+  right: 20px;
+}
+
+.banner {
+  box-sizing: content-box;
+  display: block;
+  width: 100%;
+  height: 600px;
+}
+
+.banner-logo {
+  width: 100%;
+  height: 100%;
+  background-image: url(img/sysi.jpg);
+  background-size: cover;
+}
+
+.banner-logo-text {
+  box-sizing: border-box;
+  width: 30%;
+  height: 100%;
+  color: white;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 50px;
+  letter-spacing: 5px;
+  text-shadow: 1px 3px 1px black;
+  position: absolute;
+  top: 300px;
+  left: 200px;
+}
+
+.banner-logo-text2 {
+  box-sizing: border-box;
+  width: 40%;
+  height: 100%;
+  color: white;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 35px;
+  letter-spacing: 2px;
+  position: absolute;
+  top: 450px;
+  left: 200px;
+}
+
+.banner-bitton {
+  background-color: #ac0000;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px 20px;
+  position: absolute;
+  top: 600px;
+  left: 300px;
+}
+
+.prem {
+  box-sizing: border-box;
+  border: 0px;
+  background-color: #dddddd;
+  height: 150px;
+}
+.p1 {
+  box-sizing: content-box;
+  position: absolute;
+  margin-left: 100px;
+  margin-top: 60px;
+}
+
+.p2 {
+  box-sizing: content-box;
+  position: absolute;
+  margin-left: 500px;
+  margin-top: 60px;
+}
+
+.p3 {
+  box-sizing: content-box;
+  position: absolute;
+  left: 1000px;
+  margin-top: 60px;
+}
+
+.p4 {
+  box-sizing: content-box;
+  position: absolute;
+  left: 1400px;
+  margin-top: 60px;
+}
+
+.acsis {
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.acsis-photo {
+  padding-top: 40px;
+  padding-left: 55px;
+}
+
+.acsis-text {
+  z-index: 100;
+  position: absolute;
+  color: rgb(240, 240, 240);
+  text-shadow: 1px 3px 1px black;
+  font-size: 24px;
+  font-weight: bold;
+  left: 100px;
+  top: 1200px;
+}
+.acsis-text1 {
+  z-index: 100;
+  position: absolute;
+  color: rgb(240, 240, 240);
+  text-shadow: 1px 3px 1px black;
+  font-size: 24px;
+  font-weight: bold;
+  left: 100px;
+  top: 1240px;
+}
+.acsis-text2 {
+  z-index: 100;
+  position: absolute;
+  color: rgb(240, 240, 240);
+  text-shadow: 1px 3px 1px black;
+  font-size: 24px;
+  font-weight: bold;
+  left: 550px;
+  top: 1200px;
+}
+.acsis-text3 {
+  z-index: 100;
+  position: absolute;
+  color: rgb(240, 240, 240);
+  text-shadow: 1px 3px 1px black;
+  font-size: 24px;
+  font-weight: bold;
+  left: 1030px;
+  top: 1200px;
+}
+.acsis-text4 {
+  z-index: 100;
+  position: absolute;
+  color: rgb(240, 240, 240);
+  text-shadow: 1px 3px 1px black;
+  font-size: 24px;
+  font-weight: bold;
+  left: 1480px;
+  top: 1200px;
+}
+
+.about {
+  box-sizing: content-box;
+  position: relative;
+  right: 160px;
+  float: right;
+  width: 1000px;
+  font-size: 18px;
+  margin-top: 60px;
+}
+
+.about2 {
+  box-sizing: content-box;
+  position: relative;
+  top: 10px;
+  right: 160px;
+  float: right;
+  width: 1000px;
+  font-size: 18px;
+  font-style: italic;
+  margin-top: 60px;
+}
+
+.about3 {
+  box-sizing: content-box;
+  position: relative;
+  top: 10px;
+  right: 160px;
+  float: right;
+  width: 1000px;
+  font-size: 18px;
+  margin-top: 60px;
+  font-weight: bold;
+}
+.logo-back {
+  box-sizing: border-box;
+  width: 400px;
+  height: 400px;
+  position: relative;
+  left: 160px;
+}
+
+.upper {
+  box-sizing: content-box;
+  background-color: rgb(41, 41, 41);
+  position: relative;
+  width: 100%;
+  height: 200px;
+  top: 20px;
+}
